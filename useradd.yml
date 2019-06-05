@@ -1,0 +1,9 @@
+---
+    - name: UserAdd
+      hosts: all
+      tasks:
+         - name: UserAdd
+           user: 
+                name: demon
+                state: present
+                password: aman
