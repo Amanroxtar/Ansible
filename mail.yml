@@ -6,10 +6,10 @@
           mail:
               host: smtp.gmail.com
               port: 587
-              username: "amangg999@gmail.com"
-              password: "qdkejawlkkjbuvdg"
-              to: "Dipto <chottoboro@gmail.com>"
-              subject: "Ansible Dipto"
-              body: "Hii Dipto4"
+              username: ""
+              password: ""
+              to: "<>"
+              subject: ""
+              body: ""
               secure: starttls
-         # delegate_to: localhost
+          delegate_to: localhost
